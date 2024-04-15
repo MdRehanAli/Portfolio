@@ -1,0 +1,212 @@
+/* Common Css Style */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-margin {
+    margin: 0 150px;
+}
+
+
+/* navbar section  */
+header {
+    background-color: #FFF8F3;
+    background-image: url('../images/dev.png'), url('../images/color.png');
+    background-repeat: no-repeat;
+    background-position: left, right bottom;
+}
+
+nav {
+    padding: 50px 150px;
+}
+
+.name {
+    font-size: 45px;
+}
+
+.name .firstLater {
+    color: #FD6E0A;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gap {
+    gap: 50px;
+}
+
+.contact-btn {
+    background-color: #FFF8F3;
+    border: 1px solid #FD6E0A;
+
+}
+
+.btn {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+}
+
+#contact-btn {
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
+}
+
+/* Hero Section  */
+
+.hero {
+    margin: 0px 70px 0px 150px;
+}
+
+.hero img{
+filter: drop-shadow(20px 20px 10px rgba(104, 104, 104, 0.267));
+}
+
+
+
+#intro h3 {
+    color: #474747;
+    font-size: 45px;
+}
+
+#intro h1 {
+    font-size: 85px;
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #757575;
+}
+
+/* About Section  */
+.section-title {
+    font-size: 35px;
+}
+
+.second-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.about {
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 160px;
+}
+
+.section-t-b-m {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* What I Do Section  */
+.card {
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card-gap {
+    gap: 24px;
+}
+
+/* Summary Section  */
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer Section  */
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+}
+
+input{
+    display: block;
+    width: 98%;
+}
+fieldset{
+    /* width: 100%; */
+    border: 1px solid red;
+}
+
+footer input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #fd6f0a3f;
+}
+footer textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #fd6f0a3f;
+}
+
+/* Responsive: using Media Query */
+@media screen and (max-width: 992px) {
+    header{
+        background-position: top left, bottom;
+    }
+    .flex{
+        flex-direction: column;
+    }
+
+    .section-margin{
+        margin: 0;
+        padding: 0 50px;
+    }
+
+    .section-t-b-m {
+        margin-top: 130px;
+        margin-bottom: 130px;
+    }
+
+    .section-t-b-m {
+        margin-bottom: 80px;
+    }
+    
+
+    .hero {
+        margin: 0px 70px 0px;
+    }
+
+    .about{
+        padding: 50px;
+    }
+
+    footer{
+        padding: 80px;
+        /* margin: 0; */
+    }
+    
+}
